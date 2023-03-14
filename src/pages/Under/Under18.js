@@ -4,7 +4,8 @@ import React from "react";
 function Under18(){
     return (
         <>
-        18 AND OVER PAGE</>
+        <h1>18 AND UNDER PAGE</h1>
+        </>
     )
 }
 

@@ -4,7 +4,8 @@ import React from "react"
 function Over18(){
     return (
         <>
-        19 AND OVER PAGE</>
+        <h2>Over 18 page</h2>
+        </>
     )
 }
 
