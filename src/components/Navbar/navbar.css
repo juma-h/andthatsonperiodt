@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;900&display=swap');
+
 .header-nav {
   height: 10vh;
   max-width: 100%;
   margin: 0;
+  z-index: 1;
   
 }
 
@@ -9,8 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background-color: var(--bs-teal);
+  background-color:#FF6F91;
 }
 .nav-link-container-right {
   display: flex;

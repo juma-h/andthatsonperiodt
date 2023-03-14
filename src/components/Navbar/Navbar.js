@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Outlet, useNavigate } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import "./navbar.css";
 
 function Navbar() {
@@ -12,10 +12,14 @@ function Navbar() {
             style={({ isActive }) => ({
               color: isActive ? "black" : "#fff",
               textDecoration: isActive ? "none" : "none",
+              fontFamily: "'Dancing Script', cursive",
+              fontSize: '60px',
+              fontStyle: "bold"
+            
             })}
             to={"/"}
           >
-            <h3>Under 18</h3>
+            <p>Under 18</p>
           </NavLink>
         </ul>
       </div>
@@ -25,10 +29,13 @@ function Navbar() {
             style={({ isActive }) => ({
               color: isActive ? "black" : "#fff",
               textDecoration: isActive ? "none" : "none",
+              fontFamily: "'Dancing Script', cursive",
+              fontSize: '60px',
+              fontStyle: "bold"
             })}
             to={"/over18"}
           >
-            <h3>Over 18</h3>
+            <p>Over 18</p>
           </NavLink>
         </ul>
       </div>

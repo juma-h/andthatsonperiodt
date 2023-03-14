@@ -5,7 +5,7 @@ import { Navbar } from "../../components";
 function ParentPage() {
   return (
     <div className="">
-      <div className="col-12 col-sm-12">
+      <div className="col-12 col-sm-12" style={{position:"sticky", top: 0}}>
         <Navbar />
       </div>
 

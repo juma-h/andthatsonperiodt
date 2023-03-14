@@ -1,0 +1,45 @@
+.under-one{
+    border:solid #5793FF;
+    background-color: #5793FF;
+    height: 100vh;
+    margin:0;
+}
+.under-two{
+    border:solid #168039;
+    height: 50vh;
+    background-color: #168039;
+    margin:0;
+}
+.under-three{
+    border:solid #FFC142;
+    height: 50vh;
+    margin:0;
+    background-color: #FFC142;
+}
+.under-four{
+    border:solid #E83938;
+    background-color: #E83938;
+    height: 100vh;
+    margin:0;
+}
+.under-five{
+    border:solid #C100FF;
+    height: 50vh;
+    background-color: #C100FF;
+    margin:0;
+}
+.under-six{
+    border:solid #D95291;
+    height: 100vh;
+    margin:0;
+    background-color: #D95291;
+}
+.footer-under{
+    border:solid #1c1819;
+    min-height: 5vh;
+    margin:0;
+    background-color: #1c1819;
+    color: whitesmoke;
+    text-align: center;
+    padding:5px;
+}
