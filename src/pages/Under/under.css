@@ -1,10 +1,21 @@
 .under-intro {
   border: solid #f4c2c2;
   background-color: #f4c2c2;
-  height: 60vh;
+  height: 90vh;
   margin: 0;
   display: flex;
   text-align: center;
+}
+
+.intro-header{
+  font-size: 30px;
+  margin-top:10px;
+}
+
+.text-div{
+  /* border: solid green; */
+  margin-top: 10px;
+ 
 }
 
 .under-one {
