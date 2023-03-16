@@ -1,45 +1,55 @@
-.under-one{
-    border:solid #5793FF;
-    background-color: #5793FF;
-    height: 100vh;
-    margin:0;
+.under-intro {
+  border: solid #f4c2c2;
+  background-color: #f4c2c2;
+  height: 60vh;
+  margin: 0;
+  display: flex;
+  text-align: center;
 }
-.under-two{
-    border:solid #168039;
-    height: 50vh;
-    background-color: #168039;
-    margin:0;
+
+.under-one {
+  border: solid #7ecefd;
+  background-color: #7ecefd;
+  height: 50vh;
+  margin: 0;
+  display: flex;
 }
-.under-three{
-    border:solid #FFC142;
-    height: 50vh;
-    margin:0;
-    background-color: #FFC142;
+.under-two {
+  border: solid #168039;
+  height: 50vh;
+  background-color: #168039;
+  margin: 0;
 }
-.under-four{
-    border:solid #E83938;
-    background-color: #E83938;
-    height: 100vh;
-    margin:0;
+.under-three {
+  border: solid #ffc142;
+  height: 50vh;
+  margin: 0;
+  background-color: #ffc142;
 }
-.under-five{
-    border:solid #C100FF;
-    height: 50vh;
-    background-color: #C100FF;
-    margin:0;
+.under-four {
+  border: solid #e83938;
+  background-color: #e83938;
+  height: 100vh;
+  margin: 0;
 }
-.under-six{
-    border:solid #D95291;
-    height: 100vh;
-    margin:0;
-    background-color: #D95291;
+.under-five {
+  border: solid #c100ff;
+  height: 50vh;
+  background-color: #c100ff;
+  margin: 0;
 }
-.footer-under{
-    border:solid #1c1819;
-    min-height: 5vh;
-    margin:0;
-    background-color: #1c1819;
-    color: whitesmoke;
-    text-align: center;
-    padding:5px;
+.under-six {
+  border: solid #d95291;
+  height: 100vh;
+  margin: 0;
+  background-color: #d95291;
+}
+.footer-under {
+  border: solid #1c1819;
+  min-height: 5vh;
+  margin: 0;
+  background-color: #1c1819;
+  color: whitesmoke;
+  text-align: center;
+  padding: 5px;
 }

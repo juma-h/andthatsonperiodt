@@ -1,10 +1,11 @@
 import React from "react";
-import { NavLink} from "react-router-dom";
+
+import { NavLink } from "react-router-dom";
+
 import "./navbar.css";
 
 function Navbar() {
   return (
-   
     <nav className="header-nav row">
       <div className="col-md-6 nav-link-container-left">
         <ul className="nav-links">
@@ -13,9 +14,8 @@ function Navbar() {
               color: isActive ? "black" : "#fff",
               textDecoration: isActive ? "none" : "none",
               fontFamily: "'Dancing Script', cursive",
-              fontSize: '60px',
-              fontStyle: "bold"
-            
+              fontSize: "40px",
+              fontStyle: "bold",
             })}
             to={"/"}
           >
@@ -30,8 +30,8 @@ function Navbar() {
               color: isActive ? "black" : "#fff",
               textDecoration: isActive ? "none" : "none",
               fontFamily: "'Dancing Script', cursive",
-              fontSize: '60px',
-              fontStyle: "bold"
+              fontSize: "40px",
+              fontStyle: "bold",
             })}
             to={"/over18"}
           >
@@ -39,8 +39,8 @@ function Navbar() {
           </NavLink>
         </ul>
       </div>
+      <div></div>
     </nav>
-  
   );
 }
 
