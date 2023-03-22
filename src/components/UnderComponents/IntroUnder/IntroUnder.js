@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import "./introunder.css";
+import MythsMis from "../Myths/MythsMis";
 
 function IntroUnder() {
   return (
     <>
-      <div className="col-md-7">
+      <div className="col-md-7" style={{ backgroundColor: "#f4c2c2" }}>
         <div
           class="card"
-          style={{ width: "auto", background: "none", margin: "1em" }}
+          style={{ width: "auto", background: "none", border: "none" }}
         >
           <div class="card-body">
             <h5 class="card-title">What is the Menstrual Cycle?</h5>
@@ -37,10 +39,9 @@ function IntroUnder() {
           </div>
         </div>
       </div>
-      <div className="col-md-4">
-        <div>
-          {" "}
-          <img src="" alt="alt-pic-here" />
+      <div className="col-md-5" style={{ backgroundColor: "#ffff" }}>
+        <div> 
+          <MythsMis/>
         </div>
       </div>
     </>

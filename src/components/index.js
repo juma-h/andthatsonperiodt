@@ -6,3 +6,6 @@ export {default as Phases} from "./UnderComponents/Phases/Phases";
 export {default as PMS}  from "./UnderComponents/PMS/PMS";
 export {default as MenstrualDiseases} from "./UnderComponents/Diseases/diseases";
 export {default as IntroUnder} from "./UnderComponents/IntroUnder/IntroUnder";
+export {default as WebIntro}  from "./UnderComponents/WebIntro/WebIntro";
+export {default as MythsMis} from "./UnderComponents/Myths/MythsMis";
+export {default as ReactMaps} from "./GoogleMaps/ReactMaps";

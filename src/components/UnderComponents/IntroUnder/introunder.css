@@ -1,0 +1,25 @@
+.card-body > ul{
+  animation: 0.4s top-to-bottom forwards;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+}
+/* .top-to-bottom {
+ 
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+} */
+@keyframes card-body {
+  from {
+    transform: translateY(-48px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
