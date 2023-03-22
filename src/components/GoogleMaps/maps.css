@@ -11,10 +11,16 @@
     background-color: #FEBE8C;
 }
 
+.maps-card-info{
+    line-height: 1.2; 
+
+}
+
 .maps-text-body{
     font-size: medium;
     font-style: italic;
     font-weight: 300;
+   
 }
 
 

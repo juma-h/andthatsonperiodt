@@ -3,7 +3,6 @@ import {
   MapContainer,
   TileLayer,
   Marker,
-  CircleMarker,
   Popup,
 } from "react-leaflet";
 import L from "leaflet";
@@ -15,7 +14,7 @@ function ReactMaps() {
   const position = [-1.2921, 36.8219]; // geographical center of kenya/nairobi
   const zoomLevel = 13;
 
-  // fn append color to array
+  // fn append color to array by category
   function appendColorsByCategories(data, categoriesAndColors) {
     for (let i = 0; i < data.length; i++) {
       for (let j = 0; j < categoriesAndColors.length; j++) {
@@ -46,10 +45,10 @@ function ReactMaps() {
     hospitalData,
     categoriesAndColors
   );
-  console.log(newMapsData);
+  // console.log(newMapsData);
 
   //map over the hospital arr
-  const markers = hospitalData.map((item) => {
+  const markers = newMapsData.map((item) => {
     return (
       <Marker
         position={[item.latitude, item.longitude]}
@@ -73,7 +72,13 @@ function ReactMaps() {
             </div>
             <div class="maps-card-info">
               <p class="maps-text-body">{item.contact}</p>
-              <p class="maps-text-body">{item.email}</p>
+              <a
+                class="maps-text-body"
+                href={`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${item.email}`}
+              >
+                {item.email}
+              </a>
+
               <p class="maps-text-body">
                 <b>{item.category}</b>
               </p>
