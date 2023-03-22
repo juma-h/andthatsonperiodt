@@ -1,65 +1,101 @@
 import React from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  CircleMarker,
+  Popup,
+} from "react-leaflet";
 import L from "leaflet";
 import hospitalData from "../../assets/contentData/hospital.json";
-import hospitalIconUrl from "../../assets/PNG/hospital-icon.png";
-import clinicIconUrl from "../../assets/PNG/clinic-icon.png";
-import gynaecologistIconUrl from "../../assets/PNG/gynaecologist-icon.png";
 
 import "./maps.css";
 
 function ReactMaps() {
-  const position = [-1.2921, 36.8219];// geographical center of kenya/nairobi
+  const position = [-1.2921, 36.8219]; // geographical center of kenya/nairobi
   const zoomLevel = 13;
 
-  // define icons for different categories
-  const hospitalIcon = L.icon({
-    iconUrl: hospitalIconUrl,
-    iconSize: [32, 32],
-  });
+  // fn append color to array
+  function appendColorsByCategories(data, categoriesAndColors) {
+    for (let i = 0; i < data.length; i++) {
+      for (let j = 0; j < categoriesAndColors.length; j++) {
+        if (data[i].category === categoriesAndColors[j].category) {
+          data[i].color = categoriesAndColors[j].color;
+        }
+      }
+    }
+    return data;
+  }
 
-  const clinicIcon = L.icon({
-    iconUrl: clinicIconUrl,
-    iconSize: [32, 32],
-  });
+  const categoriesAndColors = [
+    {
+      category: "Hospital",
+      color: "red",
+    },
+    {
+      category: "Gynaecologist",
+      color: "green",
+    },
+    {
+      category: "Gynecologist Clinic",
+      color: "blue",
+    },
+  ];
 
-  const gynaecologistIcon = L.icon({
-    iconUrl: gynaecologistIconUrl,
-    iconSize: [32, 32],
-  });
+  const newMapsData = appendColorsByCategories(
+    hospitalData,
+    categoriesAndColors
+  );
+  console.log(newMapsData);
 
   //map over the hospital arr
   const markers = hospitalData.map((item) => {
-    // let icon = null;
-    // // set the icon based on category
-    // if (item.category === "Hospital") {
-    //   icon = hospitalIcon;
-    // } else if (item.category === " Gynaecology Clinic") {
-    //   icon = clinicIcon;
-    // } else if (item.category === "Gynaecologist") {
-    //   icon = gynaecologistIcon;
-    // }
     return (
-      <Marker position={[item.latitude, item.longitude]} key={item.name} >
-        <Popup>
-          <h5>{item.name}</h5>
-          <p>{item.address}</p>
-          <p>{item.contact}</p>
-          <p>{item.email}</p>
-          <a href={item.website}>{item.website}</a>
+      <Marker
+        position={[item.latitude, item.longitude]}
+        key={item.name}
+        icon={
+          new L.Icon({
+            iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${item.color}.png`,
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41],
+            shadowUrl:
+              "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+          })
+        }
+      >
+        <Popup className="custom-popup">
+          <div class="maps-card">
+            <div class="maps-card-img">
+              <h2>{item.name}</h2>
+            </div>
+            <div class="maps-card-info">
+              <p class="maps-text-body">{item.contact}</p>
+              <p class="maps-text-body">{item.email}</p>
+              <p class="maps-text-body">
+                <b>{item.category}</b>
+              </p>
+            </div>
+          </div>
         </Popup>
       </Marker>
     );
   });
 
   return (
-    <MapContainer center={position} zoom={zoomLevel} scrollWheelZoom={false}>
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      {markers}
-    </MapContainer>
+    <div>
+      <h2 className="title">Map of Gynaecologists , Hospitals and Clinics </h2>
+      <caption>Contact Information Provided</caption>
+      <MapContainer center={position} zoom={zoomLevel} scrollWheelZoom={false}>
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        {markers}
+      </MapContainer>
+    </div>
   );
 }
 

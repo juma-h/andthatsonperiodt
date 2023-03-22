@@ -2,3 +2,20 @@
   width: 100%;
   height: 100vh;
 }
+.leaflet-popup-content-wrapper{
+    background-color: #F5EBE0;
+
+}
+
+.leaflet-popup-tip-{
+    background-color: #FEBE8C;
+}
+
+.maps-text-body{
+    font-size: medium;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+

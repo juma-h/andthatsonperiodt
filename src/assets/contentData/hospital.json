@@ -230,7 +230,8 @@
     "location": "Suite No 5, 88982-80100 , Mombasa, Kenya",
     "contact": "+254-412220540",
     "latitude": "-4.0495",
-    "longitude": "39.6728"
+    "longitude": "39.6728",
+    "category": "Gynaecologist"
   },
   {
     "name": "Aga Khan Doctors Plaza",
@@ -238,7 +239,8 @@
     "location": "2nd Flr Nyerere Ave, 1255-80100 , Mombasa, Kenya",
     "contact": "+254-202022014",
     "latitude": "-4.0531",
-    "longitude": "39.6659"
+    "longitude": "39.6659",
+    "category": "Gynaecologist"
   },
   {
     "name": "Aga Khan Doctor’s Plaza",
@@ -246,7 +248,8 @@
     "location": "Nyerere Ave, 87313-80100 , Mombasa, Kenya",
     "contact": "+254-412226591",
     "latitude": "-4.0497",
-    "longitude": "39.6661"
+    "longitude": "39.6661",
+    "category": "Gynaecologist"
   },
   {
     "name": "Pandya Memorial Hospital",
@@ -254,7 +257,8 @@
     "location": "Dedan Kimathi St, 88444-80100 , Mombasa, Kenya",
     "contact": "+254-412220127",
     "latitude": "-4.0581",
-    "longitude": "39.6724"
+    "longitude": "39.6724",
+    "category": "Gynaecologist"
   },
   {
     "name": "Hospital Private Clinics",
@@ -262,7 +266,8 @@
     "location": "Off Mama Ngina Drv, 87300-80100 , Mombasa, Kenya",
     "contact": "+254-412315294",
     "latitude": "-4.0567",
-    "longitude": "39.6666"
+    "longitude": "39.6666",
+    "category": "Gynaecologist"
   },
   {
     "name": "Kisumu-Vihiga Road",
@@ -270,7 +275,8 @@
     "location": "Kisumu-Vihiga Road, Kisumu, Kenya",
     "contact": "+254 780 099062",
     "latitude": "-0.0904",
-    "longitude": "34.7581"
+    "longitude": "34.7581",
+    "category": "Gynaecologist"
   },
   {
     "name": "Otieno Oyoo Street",
@@ -278,7 +284,8 @@
     "location": "Otieno Oyoo Street, Kisumu, Kenya",
     "contact": "+254 57 202 0005",
     "latitude": "-0.1027",
-    "longitude": "34.7645"
+    "longitude": "34.7645",
+    "category": "Gynaecologist"
   },
   {
     "name": "Awour Otieno Road",
@@ -286,6 +293,7 @@
     "location": "Awour Otieno Road, Kisumu, Kenya",
     "contact": "+254 774 317480",
     "latitude": "-0.0728",
-    "longitude": "34.7673"
+    "longitude": "34.7673",
+    "category": "Gynaecologist"
   }
 ]
