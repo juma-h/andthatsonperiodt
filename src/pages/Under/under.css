@@ -62,7 +62,7 @@
 }
 .under-five {
   border: solid #FFDDD2;
-  height: 80vh;
+  height: 70vh;
   background-color: #FFDDD2;
   margin: 0;
 }
@@ -85,5 +85,11 @@
   text-align: center;
   padding: 5px;
  
+}
+
+
+.periodgy{
+  background-color: var(--bs-red);
+  /* height: 80vh; */
 }
 

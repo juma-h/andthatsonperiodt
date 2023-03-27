@@ -9,6 +9,7 @@ import {
   WebIntro,
   ReactMaps,
   BirthControlMethods,
+  PeriodHygiene
 } from "../../components";
 import "./under.css";
 
@@ -37,7 +38,6 @@ function Under18() {
 
           <Scene>
             <div className="under-three">
-          
               <PMS />
             </div>
           </Scene>
@@ -49,13 +49,15 @@ function Under18() {
           </Scene>
           <div className="under-five">
             <div class="row">
-            <div class="col-md-7"> <BirthControlMethods /></div>
-            <div class="col-md-5">
+              <div class="col-md-7">
+              
+                <BirthControlMethods />
+              </div>
+              <div class="col-md-5 periodgy">
+                <PeriodHygiene/>
 
+              </div>
             </div>
-            </div>
-          
-           
           </div>
 
           <Scene>
