@@ -5,7 +5,7 @@ import MythsMis from "../Myths/MythsMis";
 function IntroUnder() {
   return (
     <>
-      <div className="col-md-7" style={{ backgroundColor: "#f4c2c2" }}>
+      <div className="col-md-6" style={{ backgroundColor: "#f4c2c2" }}>
         <div
           class="card"
           style={{ width: "auto", background: "none", border: "none" }}
@@ -39,7 +39,7 @@ function IntroUnder() {
           </div>
         </div>
       </div>
-      <div className="col-md-5" style={{ backgroundColor: "#ffff" }}>
+      <div className="col-md-6" style={{ backgroundColor: "#ffff" }}>
         <div> 
           <MythsMis/>
         </div>

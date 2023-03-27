@@ -12,9 +12,14 @@
   /* padding:10px; */
 }
 
+.container-wrapper {
+  position: relative;
+ 
+}
+
 .scrollmagic-pin-spacer {
   padding: 0 !important;
-  height: auto !important; 
+  height: auto !important;
 }
 
 /* .arrow-section {
@@ -52,27 +57,33 @@
 .under-four {
   border: solid #ffe1e1;
   background-color: #ffe1e1;
-  height: 40vh;
+  height: 50vh;
   margin: 0;
 }
 .under-five {
-  border: solid #ffe1e1;
+  border: solid #FFDDD2;
   height: 50vh;
-  background-color: #ffe1e1;
+  background-color: #FFDDD2;
   margin: 0;
 }
 .under-six {
   border: solid #ffd8bf;
-  height: 100vh;
-  margin: 0;
+  height: 100vh; 
   background-color: #ffd8bf;
+  /* position: relative; */
+  z-index:1;
+ 
 }
 .footer-under {
   border: solid #1c1819;
-  min-height: 5vh;
-  margin: 0;
+  /* position: relative;
+  bottom: 0; */
+  width: 100%;
+  min-height: 10vh; 
   background-color: #1c1819;
   color: whitesmoke;
   text-align: center;
   padding: 5px;
+ 
 }
+

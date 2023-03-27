@@ -7,53 +7,63 @@ import {
   PMS,
   IntroUnder,
   WebIntro,
-  ReactMaps
+  ReactMaps,
+  BirthControlMethods,
 } from "../../components";
 import "./under.css";
 
 function Under18() {
   return (
     <div>
-      <Controller>
-        <Scene>
-          <div className="under-intro row mt-1">
-            <WebIntro />
-          </div>
-        </Scene>
+      <div className="container-wrapper">
+        <Controller>
+          <Scene>
+            <div className="under-intro row mt-1">
+              <WebIntro />
+            </div>
+          </Scene>
 
-        <Scene>
-          <div className="under-one" id="section2">
-            <IntroUnder />
-          </div>
-        </Scene>
+          <Scene>
+            <div className="under-one" id="section2">
+              <IntroUnder />
+            </div>
+          </Scene>
 
-        <Scene>
-          <div className="under-two row">
-            <Phases />
-          </div>
-        </Scene>
+          <Scene>
+            <div className="under-two row">
+              <Phases />
+            </div>
+          </Scene>
 
-        <Scene>
-          <div className="under-three">
-            {" "}
-            <PMS />
-          </div>
-        </Scene>
-        
-        <Scene>
-          <div className="under-four">
-            <MenstrualDiseases />
-          </div>
-        </Scene>
-        <div className="under-five"> Div 5</div>
-        <div className="under-six"> 
-        <ReactMaps/>
-        </div>
+          <Scene>
+            <div className="under-three">
+              {" "}
+              <PMS />
+            </div>
+          </Scene>
 
-        <div className="footer-under">
-          <Footer />
-        </div>
-      </Controller>
+          <Scene>
+            <div className="under-four">
+              <MenstrualDiseases />
+            </div>
+          </Scene>
+          <div className="under-five">
+            <BirthControlMethods />
+          </div>
+
+          <Scene>
+            <div className="under-six">
+              <ReactMaps />
+            </div>
+          </Scene>
+
+          <Scene>
+            <div className="footer-under">
+              <Footer />
+            </div>
+          </Scene>
+        </Controller>
+      </div>
     </div>
   );
 }

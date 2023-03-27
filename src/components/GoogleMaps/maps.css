@@ -1,27 +1,22 @@
 .leaflet-container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
+  /* margin-bottom: 10vh; */
 }
-.leaflet-popup-content-wrapper{
-    background-color: #F5EBE0;
-
-}
-
-.leaflet-popup-tip-{
-    background-color: #FEBE8C;
+.leaflet-popup-content-wrapper {
+  background-color: #f5ebe0;
 }
 
-.maps-card-info{
-    line-height: 1.2; 
-
+.leaflet-popup-tip- {
+  background-color: #febe8c;
 }
 
-.maps-text-body{
-    font-size: medium;
-    font-style: italic;
-    font-weight: 300;
-   
+.maps-card-info {
+  line-height: 1.2;
 }
 
-
-
+.maps-text-body {
+  font-size: medium;
+  font-style: italic;
+  font-weight: 300;
+}

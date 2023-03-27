@@ -7,7 +7,6 @@ import {
 } from "react-leaflet";
 import L from "leaflet";
 import hospitalData from "../../assets/contentData/hospital.json";
-
 import "./maps.css";
 
 function ReactMaps() {
@@ -92,7 +91,7 @@ function ReactMaps() {
   return (
     <div>
       <h2 className="title">Map of Gynaecologists , Hospitals and Clinics </h2>
-      <caption>Contact Information Provided</caption>
+    
       <MapContainer center={position} zoom={zoomLevel} scrollWheelZoom={false}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
