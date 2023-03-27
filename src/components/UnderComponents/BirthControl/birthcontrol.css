@@ -1,0 +1,100 @@
+.birth-wrapper {
+  /* border: solid brown; */
+  height: 75vh;
+}
+
+.implant {
+  /* border: solid pink; */
+  padding: 1em;
+  height: 500px;
+}
+
+.control-container {
+  position: relative;
+  background: url("https://images.ctfassets.net/juauvlea4rbf/5yefvUY1oDPmduTP5cPkHa/2f3591feec38c5c202f11d080ca9d2ca/Contenful__6_.svg");
+  background-size: 100% 100%;
+  height: 500px;
+  border-radius: 8px;
+
+  /* border: solid green; */
+}
+.iud-container {
+  position: relative;
+  background: url("https://media.npr.org/assets/img/2016/11/10/birth-control-iud-final2_wide-2ca96121b439cd23cda2f769f4d7c13f2f1669f1-s1400-c100.jpg");
+  background-size: 100% 100%;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.depo-container {
+  position: relative;
+  background: url("https://www.singlecare.com/blog/wp-content/uploads/2020/05/Blog_072518_Depo-Provera.png");
+  background-size: 100% 100%;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.condom-container {
+  position: relative;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_7GmRM1U885_kz33Bn3u6CUTmABSGDzvoKg&usqp=CAU");
+  background-size: 100% 100%;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.pills-container {
+  position: relative;
+  background: url("https://www.healthywomen.org/media-library/what-you-need-to-know-about-the-mini-pill.png?id=32224119&width=1200&height=600&coordinates=0%2C98%2C0%2C98");
+  height: 500px;
+  border-radius: 8px;
+}
+.chill-container {
+  position: relative;
+  background: url("https://media.istockphoto.com/id/1439660511/vector/group-of-diverse-hands-with-peace-sign.jpg?s=612x612&w=0&k=20&c=zmF6nRtIG7OmxACxyVlhjKWh6hVl0cMJHeIqz7qt4sA=");
+  height: 500px;
+  border-radius: 8px;
+}
+
+.control-card {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  height: 80%;
+  width: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px) brightness(100%);
+  color: black;
+  overflow-y: auto;
+}
+
+.control-card::-webkit-scrollbar {
+  width: 10px;
+}
+
+.control-card::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+.control-card::-webkit-scrollbar-thumb {
+  background: pink;
+  border-radius: 4px;
+}
+
+.control-card::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.control-card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.control-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}

@@ -37,7 +37,7 @@ function Under18() {
 
           <Scene>
             <div className="under-three">
-              {" "}
+          
               <PMS />
             </div>
           </Scene>
@@ -48,7 +48,14 @@ function Under18() {
             </div>
           </Scene>
           <div className="under-five">
-            <BirthControlMethods />
+            <div class="row">
+            <div class="col-md-7"> <BirthControlMethods /></div>
+            <div class="col-md-5">
+
+            </div>
+            </div>
+          
+           
           </div>
 
           <Scene>

@@ -12,20 +12,20 @@ function MenstrualDiseases() {
     <>
       <div className="row">
         <div className="col-md-8 p-5">
-          <h5>Common menstrual problems</h5>
-          <p> Some of the menstrual issues had by girls all over are :</p>
+          <h3>Common menstrual problems</h3>
+          <p> Some of the menstrual issues had by women all over are :</p>
           <li>
-            Dysmenorrhoea – or painful periods. It is thought that the uterus is
+            Dysmenorrhoea or painful periods. It is thought that the uterus is
             prompted by certain hormones to squeeze harder than necessary to
             dislodge its lining.
           </li>
           <li>
-            {" "}
+          
             Menorrhagia is heavy bleeding, including prolonged menstrual periods
             or excessive bleeding during a normal-length period.
           </li>
           <li>
-            {" "}
+           
             Metrorrhagia is bleeding at irregular intervals, particularly
             between expected menstrual periods
           </li>
@@ -33,6 +33,13 @@ function MenstrualDiseases() {
           <li>
             Oligomenorrhea refers to infrequent menstrual periods. Hypomenorrhea
             refers to light periods.
+          </li>
+          <li>
+            PCOS , A hormonal disorder causing enlarged ovaries with small cysts
+            on the outer edges. The cause of polycystic ovary syndrome isn't
+            well understood, but may involve a combination of genetic and
+            environmental factors. Symptoms include menstrual irregularity,
+            excess hair growth, acne and obesity.
           </li>
         </div>
         <div className="aside-div col-md-4 p-5">

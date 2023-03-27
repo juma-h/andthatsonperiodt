@@ -1,28 +1,25 @@
 import React from "react";
+import "./pms.scss";
 
 function PMS() {
-  const src = "https://youtu.be/qWVONBzOWNQ";
   return (
     <div className="row">
-      <div className="col-md-6 p-5">
+      <div className="col-md-7 p-5">
         <iframe
-          width="560"
-          height="315"
+        class="framed" 
+          width="800"
+          height="400"
           src="https://www.youtube.com/embed/qWVONBzOWNQ"
           title="PMS & It's Symptoms"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
+          controls
+          // style="border: 1px solid black;"
         ></iframe>
       </div>
-      <div className="col-md-6 p-5">
-        <h5>PMS and Everything</h5>
-        {/* <p>A group of symptoms that occur in women, typically between ovulation and a period. The symptoms are: </p>
-        <ul>
-            <li>
-
-            </li>
-        </ul> */}
+      <div className="col-md-5 p-5">
+        <h3>PMS and its Symptoms</h3>
         <div class="d-flex align-items-center">
           <div
             class="nav flex-column nav-pills"
@@ -39,11 +36,12 @@ function PMS() {
               role="tab"
               aria-controls="v-pills-home"
               aria-selected="true"
+              style={{backgroundColor:"#FD8A8A", color:"black"}}
             >
               Emotional and behavioral signs and symptoms
             </button>
             <button
-              class="nav-link warning"
+              class="nav-link warning mt-3"
               id="v-pills-profile-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-profile"
@@ -51,6 +49,7 @@ function PMS() {
               role="tab"
               aria-controls="v-pills-profile"
               aria-selected="false"
+              style={{backgroundColor:"#E97777", color:"black"}}
             >
               Physical Signs & Symptoms
             </button>
@@ -63,19 +62,17 @@ function PMS() {
               aria-labelledby="v-pills-home-tab"
               tabindex="0"
             >
-              <ol>
-                <ul>
-                  <li>Tension or anxiety</li>
-                  <li>Depressed mood</li>
-                  <li>Crying spells</li>
-                  <li>Mood swings and irritability or anger</li>
-                  <li>Appetite changes and food cravings</li>
-                  <li>Trouble falling asleep (insomnia)</li>
-                  <li>Social withdrawal</li>
-                  <li>Poor concentration</li>
-                  <li>Change in libido</li>
-                </ul>
-              </ol>
+              <ul>
+                <li>Tension or anxiety</li>
+                <li>Depressed mood</li>
+                <li>Crying spells</li>
+                <li>Mood swings and irritability or anger</li>
+                <li>Appetite changes and food cravings</li>
+                <li>Trouble falling asleep (insomnia)</li>
+                <li>Social withdrawal</li>
+                <li>Poor concentration</li>
+                <li>Change in libido</li>
+              </ul>
             </div>
             <div
               class="tab-pane fade"
@@ -84,19 +81,17 @@ function PMS() {
               aria-labelledby="v-pills-profile-tab"
               tabindex="0"
             >
-              <li>
-                <ul>
-                  <li>Joint or muscle pain</li>
-                  <li>Headache</li>
-                  <li>Fatigue</li>
-                  <li>Weight gain related to fluid retention</li>
-                  <li>Abdominal bloating</li>
-                  <li>Breast tenderness</li>
-                  <li>Acne flare-ups</li>
-                  <li>Constipation or diarrhea</li>
-                  <li>Alcohol intolerance</li>
-                </ul>
-              </li>
+              <ul>
+                <li>Joint or muscle pain</li>
+                <li>Headache</li>
+                <li>Fatigue</li>
+                <li>Weight gain related to fluid retention</li>
+                <li>Abdominal bloating</li>
+                <li>Breast tenderness</li>
+                <li>Acne flare-ups</li>
+                <li>Constipation or diarrhea</li>
+                <li>Alcohol intolerance</li>
+              </ul>
             </div>
           </div>
         </div>
