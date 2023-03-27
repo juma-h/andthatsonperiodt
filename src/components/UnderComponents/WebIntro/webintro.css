@@ -1,5 +1,5 @@
 .intro-intro {
-  background-image: url("../../../assets/PNG/background.jpg");
+
   background-size: cover;
 }
 
@@ -98,3 +98,18 @@
     transform: translateY(-10px);
   }
 }
+
+.web-intro-video {
+  position: relative;
+}
+
+.web-intro-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
