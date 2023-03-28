@@ -83,11 +83,12 @@ h2 {
   scroll-snap-align: start;
   transition: all 0.2s;
   width: 18rem;
+  background-color: var(--bs-orange) ;
 }
 
 .card:hover {
   color: var(--white);
-  background: var(--bs-orange);
+  background: transparent;
 }
 
 .card .card-title {
@@ -107,7 +108,7 @@ h2 {
   display: inline-block;
   text-decoration: none;
   color: white;
-  background: var(--bs-orange);
+  background: #559A5C;
   padding: 6px 12px;
   border-radius: 8px;
   transition: background 0.2s;

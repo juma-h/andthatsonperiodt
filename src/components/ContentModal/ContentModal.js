@@ -9,9 +9,10 @@ function ContentModal(props) {
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
+      
       >
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-          <div class="modal-content">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl"   style={{backgroundColor : props.backgroundColor}}>
+          <div class="modal-content "   style={{backgroundColor : props.backgroundColor}}>
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="exampleModalLabel">
                 {props.modalTitle}
@@ -36,7 +37,7 @@ function ContentModal(props) {
                   src={props.imageModal}
                   alt="modal-img"
                 />
-                 <figcaption>Image description</figcaption>
+                 <figcaption>phases of the menstrual cycle</figcaption>
               </div>
             </div>
             <div class="modal-footer">

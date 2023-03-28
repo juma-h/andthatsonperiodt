@@ -18,14 +18,18 @@ import "react-vertical-timeline-component/style.min.css";
 
 function Phases() {
   const imagesData = [MenstrualPic, FollicularPic, OvulationPic, LutealPic];
+  const pastelBackground = ["#B2A4FF", "#FFF2CC", "#BBD6B8", "#FFE1E1"];
 
   return (
     <>
-      <h5>Phases of the Menstrual Cycle</h5>
+      <h3 style={{ textAlign: "center", marginBottom: "1em" }}>
+        {" "}
+        Phases of the Menstrual Cycle
+      </h3>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#8278A1", color: "#451c00" }}
+          contentStyle={{ background: "#8278A1", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid #8278A1" }}
           date="During the period – from the time vaginal bleeding starts to the time it ends."
           iconStyle={{
@@ -58,7 +62,7 @@ function Phases() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#FFFDC2", color: "brown" }}
+          contentStyle={{ background: "#FFFDC2", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid #FFFDC2" }}
           date="From the start of the period until ovulation."
           iconStyle={{ background: "#FFFDC2", color: "#f7f7f7" }}
@@ -88,7 +92,7 @@ function Phases() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#C8D3B8", color: "#4192D9" }}
+          contentStyle={{ background: "#C8D3B8", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid #C8D3B8" }}
           date="About midway through the menstrual cycle, or 13 to 15 days before the start of the next period (14). This can change cycle-to-cycle."
           iconStyle={{ background: "#C8D3B8", color: "#fff" }}
@@ -115,7 +119,7 @@ function Phases() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#FF9F9F", color: "#ce5300" }}
+          contentStyle={{ background: "#FF9F9F", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid #FF9F9F" }}
           date=" From ovulation until the start of the next period."
           iconStyle={{ background: "#FF9F9F", color: "#fff" }}
@@ -142,15 +146,14 @@ function Phases() {
       </VerticalTimeline>
 
       {data.map((item, index) => (
-        <>
-          <ContentModal
-            key={index}
-            modalID={item.modalId}
-            modalTitle={item.title}
-            contentModal={item.contentText}
-            imageModal={imagesData[index]}
-          />
-        </>
+        <ContentModal
+          key={index}
+          modalID={item.modalId}
+          modalTitle={item.title}
+          contentModal={item.contentText}
+          imageModal={imagesData[index]}
+          backgroundColor={pastelBackground[index % pastelBackground.length]}
+        />
       ))}
     </>
   );

@@ -5,14 +5,14 @@ import MythsMis from "../Myths/MythsMis";
 function IntroUnder() {
   return (
     <>
-      <div className="col-md-6" style={{ backgroundColor: "#f4c2c2" }}>
+      <div className="col-md-6 p-3" style={{ backgroundColor: "#C1564C", color: "#fff" }}>
         <div
           class="intro-card"
           style={{ width: "auto", background: "none", border: "none" }}
         >
           <div class="intro-card-body">
             <h5 class="intro-card-title">What is the Menstrual Cycle?</h5>
-            <h6 class="intro-card-subtitle mb-2 text-muted">Intro to menses</h6>
+            <h6 class="intro-card-subtitle mb-2 ">Intro to menses</h6>
             <ul>
               <li>
                 Menstruation is a natural process that happens to girls and
@@ -39,7 +39,7 @@ function IntroUnder() {
           </div>
         </div>
       </div>
-      <div className="col-md-6" style={{ backgroundColor: "#ffff" }}>
+      <div className="col-md-6" style={{ backgroundColor: "#61764B" }}>
         <div> 
           <MythsMis/>
         </div>

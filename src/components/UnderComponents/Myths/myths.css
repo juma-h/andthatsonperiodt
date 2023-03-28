@@ -4,8 +4,8 @@
   justify-content: flex-start;
   align-items: center;
   overflow-x: scroll;
-  height: 60vh;
-  background-color: #ffe1e1;
+  height: auto;
+  background-color: #61764B;
 }
 .flip-card {
   transform-style: preserve-3d;
@@ -27,7 +27,7 @@
   justify-content: center;
   align-items: center;
   backface-visibility: hidden;
-  padding: 1em;
+  padding: 2em;
 }
 
 .flip-card-back {
@@ -39,7 +39,7 @@
 }
 
 .myths-container::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
   margin-top: 0;
   padding: 5px;
   border: solid black;
@@ -47,7 +47,7 @@
 }
 
 .myths-container::-webkit-scrollbar-track {
-  background-color: #ffe1e1;
+  background-color: #61764B;
  
 }
 

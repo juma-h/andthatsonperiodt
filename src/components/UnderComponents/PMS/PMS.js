@@ -4,7 +4,7 @@ import "./pms.scss";
 function PMS() {
   return (
     <div className="row">
-      <div className="col-md-7 p-5">
+      <div className="col-md-7 p-5 youtube-vid" >
         <iframe
         class="framed" 
           width="800"
@@ -36,7 +36,7 @@ function PMS() {
               role="tab"
               aria-controls="v-pills-home"
               aria-selected="true"
-              style={{backgroundColor:"#FD8A8A", color:"black"}}
+              style={{backgroundColor:"#559A5C", color:"white"}}
             >
               Emotional and behavioral signs and symptoms
             </button>
@@ -49,7 +49,7 @@ function PMS() {
               role="tab"
               aria-controls="v-pills-profile"
               aria-selected="false"
-              style={{backgroundColor:"#E97777", color:"black"}}
+              style={{backgroundColor:"#559A5C", color:"white"}}
             >
               Physical Signs & Symptoms
             </button>

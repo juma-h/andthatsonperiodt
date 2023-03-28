@@ -43,7 +43,7 @@ function Navbar() {
     // </nav>
     <nav className="header-nav row">
       <div class="col-md-6">
-        <h2>andthatsonperiodt.</h2>
+        <h2 className="wbsite">andthatsonperiodt.</h2>
       </div>
       <div class="col-md-6">
       <ul className="nav-links">

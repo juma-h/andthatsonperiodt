@@ -33,43 +33,42 @@
 } */
 
 .under-one {
-  border: solid #ffd8bf;
-  background-color: #ffd8bf;
+  /* border: solid #f0cf92;
+  background-color: #f0cf92; */
   height: auto;
   margin: 0;
   display: flex;
 }
 
 .under-two {
-  border: solid #ffe1e1;
+  border: solid #f0cf92;
   height: auto;
-  background-color: #ffe1e1;
+  background-color: #f0cf92;
   padding: 10px;
-
   margin: 0;
 }
 .under-three {
-  border: solid #ffd8bf;
+  border: solid #f0cf92;
   height: 70vh;
   margin: 0;
-  background-color: #ffd8bf;
+  background-color: #f0cf92;
 }
 .under-four {
-  border: solid #ffe1e1;
-  background-color: #ffe1e1;
+  border: solid #FD8A7D;
+  background-color: #FD8A7D;
   height: 50vh;
   margin: 0;
 }
 .under-five {
-  border: solid #ffddd2;
+  border: solid var(--bs-red);
   height: 70vh;
-  background-color: #ffddd2;
+  background-color:var(--bs-red);
   margin: 0;
 }
 .under-six {
-  border: solid #ffd8bf;
+  border: solid #f0cf92;
   height: 100vh;
-  background-color: #ffd8bf;
+  background-color: #f0cf92;
   /* position: relative; */
   z-index: 1;
 }
@@ -87,5 +86,5 @@
 
 .periodgy {
   background-color: var(--bs-red);
-  /* height: 80vh; */
+  height: 65vh;
 }
