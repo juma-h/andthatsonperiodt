@@ -42,10 +42,10 @@ function Navbar() {
     //   </div>
     // </nav>
     <nav className="header-nav row">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <h2 className="wbsite">andthatsonperiodt.</h2>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-8">
       <ul className="nav-links">
         <Link
           activeClass="active"
@@ -55,7 +55,7 @@ function Navbar() {
           offset={-70}
           duration={500}
         >
-          <h5>Intro | </h5>
+          <h5>Intro |</h5>
         </Link>
         <Link
           activeClass="active"
@@ -65,7 +65,7 @@ function Navbar() {
           offset={-70}
           duration={500}
         >
-          <h5>Phases | </h5>
+          <h5>Phases |</h5>
         </Link>
         <Link
           activeClass="active"
@@ -75,7 +75,7 @@ function Navbar() {
           offset={-70}
           duration={500}
         >
-          <h5>PMS | </h5>
+          <h5>PMS |</h5>
         </Link>
         <Link
           activeClass="active"
@@ -85,7 +85,7 @@ function Navbar() {
           offset={-70}
           duration={500}
         >
-          <h5>Menstrual Diseases | </h5>
+          <h5>Menstrual Diseases |</h5>
         </Link>
         <Link
           activeClass="active"
@@ -95,7 +95,7 @@ function Navbar() {
           offset={-70}
           duration={500}
         >
-          <h5>Birth Control Methods |  </h5>
+          <h5>Birth Control Methods |</h5>
         </Link>
         <Link
           activeClass="active"
