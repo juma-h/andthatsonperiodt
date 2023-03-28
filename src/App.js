@@ -1,26 +1,19 @@
-import logo from './logo.svg';
-import { ParentPage } from './pages';
-import './App.css';
+import * as React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {ParentPage, Over18, Under18} from "./pages";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+
+          <Route path="/" element={<ParentPage />}>
+            <Route path="/" element={<Under18 />} />
+            <Route path="over18" element={<Over18 />} />
+          </Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
-
-export default App;

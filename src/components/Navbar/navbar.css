@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;900&display=swap");
+
+.header-nav {
+  height: 10vh;
+  width: 100%;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 9999;
+}
+
+.wbsite{
+  color: whitesmoke;
+  font-size: 48px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links h5 {
+
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav-links h5:hover {
+  color: maroon;
+
+}
+
+.nav-links .active h5 {
+  text-decoration: line-through;
+  color: maroon;
+}
+
+.nav-links .active {
+  text-decoration: none;
+  color: maroon;
+}
+
+
+/* .nav-link-container-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0cf92;
+}
+.nav-link-container-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eda48a;
+} */

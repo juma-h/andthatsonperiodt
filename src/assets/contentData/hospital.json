@@ -1,0 +1,299 @@
+[
+  {
+    "name": "Aga Khan University Hospital",
+    "latitude": -1.268609,
+    "longitude": 36.804727,
+    "category": "Hospital",
+    "contact": "+254203742000",
+    "email": "akuh.nairobi@aku.edu"
+  },
+  {
+    "name": "Nairobi Hospital",
+    "latitude": -1.284929,
+    "longitude": 36.810382,
+    "category": "Hospital",
+    "contact": "+254203287000",
+    "email": "customercare@nbihosp.org"
+  },
+  {
+    "name": "Kenyatta National Hospital",
+    "latitude": -1.2974,
+    "longitude": 36.8054,
+    "category": "Hospital",
+    "contact": "+254204451000",
+    "email": "info@knh.or.ke"
+  },
+  {
+    "name": "MP Shah Hospital",
+    "latitude": -1.256106,
+    "longitude": 36.794414,
+    "category": "Hospital",
+    "contact": "+254203744000",
+    "email": "mpshah@mpshahhosp.org"
+  },
+  {
+    "name": "Coptic Hospital",
+    "latitude": -1.277561,
+    "longitude": 36.813423,
+    "category": "Hospital",
+    "contact": "+254204512000",
+    "email": "info@coptichospital.org"
+  },
+  {
+    "name": "The Nairobi Women's Hospital",
+    "latitude": -1.306865,
+    "longitude": 36.786433,
+    "category": "Gynecologist Clinic",
+    "contact": "+254203287000",
+    "email": "customercare@nbihosp.org"
+  },
+  {
+    "name": "Avenue Healthcare - Women's Clinic",
+    "latitude": -1.288541,
+    "longitude": 36.814763,
+    "category": "Gynecologist Clinic",
+    "contact": "+254709236000",
+    "email": "info@avenuehealthcare.com"
+  },
+  {
+    "name": "Coptic Hospital Women's Clinic",
+    "latitude": -1.277558,
+    "longitude": 36.813408,
+    "category": "Gynecologist Clinic",
+    "contact": "+254204512000",
+    "email": "info@coptichospital.org"
+  },
+  {
+    "name": "Mediheal Group of Hospitals - Women's Health Clinic",
+    "latitude": -1.273125,
+    "longitude": 36.814142,
+    "category": "Gynecologist Clinic",
+    "contact": "+254206015000",
+    "email": "info@medihealgroup.com"
+  },
+  {
+    "name": "Aga Khan University Hospital Women's Clinic",
+    "latitude": -1.268678,
+    "longitude": 36.804671,
+    "category": "Gynecologist Clinic",
+    "contact": "+254203742000",
+    "email": "akuh.nairobi@aku.edu"
+  },
+  {
+    "name": "Dr John Odero Ongech",
+    "location": "3rd Floor Suite A2 Prof Nelson Awori Centre, Ralph Bunche Road",
+    "contact": "+254 706 069808",
+    "latitude": -1.280017,
+    "longitude": 36.806931,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Obwaka, William W M",
+    "location": "Gilead Medical Centre, Social Security House (NSSF) Block A, Floor B1, Bishops Road",
+    "contact": "020-2714707-8, 0716-473326, 0732-4733260, 722525500",
+    "email": "willam@gileadmedical.com",
+    "latitude": -1.29677,
+    "longitude": 36.802258,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr Rosa Chemwey Ndiema",
+    "location": "Hospital Road, Nairobi",
+    "contact": "0708150584",
+    "latitude": -1.283447,
+    "longitude": 36.826917,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Waithaka",
+    "location": "Jubilee Exchange Hse, 1st Flr Kaunda St, 19836-00202 Kenyatta N. Hospital, Nairobi",
+    "contact": "+254-202710724",
+    "latitude": -1.281963,
+    "longitude": 36.825303,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr Thagana, Nathan Njeru",
+    "location": "2nd Floor, Kenya Re-Insurance",
+    "contact": "020 2223010",
+    "latitude": -1.284518,
+    "longitude": 36.819527,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Waruingi M",
+    "location": "Arrow Hse Koinange St, 62195-00200 City Square, Nairobi",
+    "contact": "+254-202220754",
+    "latitude": -1.280932,
+    "longitude": 36.82481,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr Yash P Bansal",
+    "location": "Ground Floor, Stima Plaza",
+    "contact": "020 3745369",
+    "latitude": -1.283048,
+    "longitude": 36.814334,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Abdallah",
+    "location": "Hurlingham Medicare Plaza Suite No 404, 4th Flr, 404 Argwings Kodhek Rd, 25055-00603 Lavington, Nairobi",
+    "contact": "+254-202712117",
+    "latitude": -1.298528,
+    "longitude": 36.790396,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Abha Lumba",
+    "location": "House No 1, Sports Road, Westlands",
+    "contact": "+254 20 444 3553",
+    "latitude": -1.26548,
+    "longitude": 36.804508,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Beatrice Wangari Mwaniki",
+    "location": "1st Floor Cresent House, along Parklands Road, Nairobi",
+    "contact": "+254 20 3741216",
+    "latitude": -1.254364,
+    "longitude": 36.812266,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr David N. Ndegwa",
+    "location": "Hurlingham Medicare Plaza, Suite 106, 1st Flr, 404 Argwings Kodhek Rd, Nairobi",
+    "contact": "+254-202712117",
+    "latitude": -1.298548,
+    "longitude": 36.790377,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Everlyn Asiko",
+    "location": "The Aga Khan University Hospital Doctors Plaza, 3rd Parklands Avenue",
+    "contact": "+254 20 3662000",
+    "latitude": -1.25885,
+    "longitude": 36.812294,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Joseph K. Mburu",
+    "location": "Agwings Kodhek Road, Nairobi, Kenya",
+    "contact": "+254 722 685807",
+    "latitude": -1.297618,
+    "longitude": 36.788165,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Lina Mbai",
+    "location": "Ruaraka Uhai Neema Hospital, Thika Road",
+    "contact": "+254 713 489 000",
+    "latitude": -1.228919,
+    "longitude": 36.88803,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Maina G. Kibui",
+    "location": "The Aga Khan University Hospital Doctors Plaza, 3rd Parklands Avenue",
+    "contact": "+254 20 3662000",
+    "latitude": -1.25885,
+    "longitude": 36.812294,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Ngeera",
+    "location": "Featherlite Medical Plaza, 2nd Flr, Thika Rd, 59587-00200 City Square, Nairobi",
+    "contact": "+254-202773430",
+    "latitude": -1.23788,
+    "longitude": 36.886456,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. S. Wairimu Mwangi",
+    "location": "Suite 109, 1st Floor, KMA Centre, Mara/Ragati Road",
+    "contact": "+254 20 2712565",
+    "latitude": -1.283459,
+    "longitude": 36.81435,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Dr. Wachira Gichimu",
+    "location": "The Aga Khan University Hospital Doctors Plaza, 3rd Parklands Avenue",
+    "contact": "+254 20 3662000",
+    "latitude": -1.25885,
+    "longitude": 36.812294,
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Hospital Consultants Clinic",
+    "doctor": "Dr. Abdallah",
+    "location": "Suite No 5, 88982-80100 , Mombasa, Kenya",
+    "contact": "+254-412220540",
+    "latitude": "-4.0495",
+    "longitude": "39.6728",
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Aga Khan Doctors Plaza",
+    "doctor": "Dr. Ramadhan S",
+    "location": "2nd Flr Nyerere Ave, 1255-80100 , Mombasa, Kenya",
+    "contact": "+254-202022014",
+    "latitude": "-4.0531",
+    "longitude": "39.6659",
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Aga Khan Doctor’s Plaza",
+    "doctor": "Dr. Tiras K",
+    "location": "Nyerere Ave, 87313-80100 , Mombasa, Kenya",
+    "contact": "+254-412226591",
+    "latitude": "-4.0497",
+    "longitude": "39.6661",
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Pandya Memorial Hospital",
+    "doctor": "Dr. James",
+    "location": "Dedan Kimathi St, 88444-80100 , Mombasa, Kenya",
+    "contact": "+254-412220127",
+    "latitude": "-4.0581",
+    "longitude": "39.6724",
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Hospital Private Clinics",
+    "doctor": "Dr. Narendra",
+    "location": "Off Mama Ngina Drv, 87300-80100 , Mombasa, Kenya",
+    "contact": "+254-412315294",
+    "latitude": "-4.0567",
+    "longitude": "39.6666",
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Kisumu-Vihiga Road",
+    "doctor": "Dr. Geoffrey Kazungu Koba",
+    "location": "Kisumu-Vihiga Road, Kisumu, Kenya",
+    "contact": "+254 780 099062",
+    "latitude": "-0.0904",
+    "longitude": "34.7581",
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Otieno Oyoo Street",
+    "doctor": "Dr. Bob Otieno Achila",
+    "location": "Otieno Oyoo Street, Kisumu, Kenya",
+    "contact": "+254 57 202 0005",
+    "latitude": "-0.1027",
+    "longitude": "34.7645",
+    "category": "Gynaecologist"
+  },
+  {
+    "name": "Awour Otieno Road",
+    "doctor": "Dr. John Mbogo Adek",
+    "location": "Awour Otieno Road, Kisumu, Kenya",
+    "contact": "+254 774 317480",
+    "latitude": "-0.0728",
+    "longitude": "34.7673",
+    "category": "Gynaecologist"
+  }
+]

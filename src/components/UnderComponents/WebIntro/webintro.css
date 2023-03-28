@@ -1,0 +1,95 @@
+.intro-intro {
+  left: 0;
+  width: 100%;
+  margin-top: 5em;
+}
+
+
+.web-info {
+  margin-top: 10px;
+  font-family: "Gochi Hand", cursive;
+  line-height: 1.5;
+  padding: 2em;
+  display: inline;
+  font-size: 30px;
+  animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s
+    forwards;
+}
+
+@keyframes animatedBackground {
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+.intro-header {
+  font-size: 80px;
+  font-family: "Libre Baskerville", serif;
+  font-style: none;
+  padding: 20px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden; /* Hide the overflow */
+  animation: typing 3s steps(40) forwards, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* .line-1 {
+  font-size: 80px;
+  font-family: "Libre Baskerville", serif;
+  font-style: none;
+  padding: 20px;
+  font-weight: 700;
+  text-align: center;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+
+  white-space: nowrap;
+  overflow: hidden;
+} */
+
+/* Animation */
+/* .anim-typewriter {
+  animation: typewriter 4s steps(44) 1s infinite both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+} */
+
+/* dropdown arrow */
+.fa-arrow-down {
+  animation: bounce 2s infinite;
+  color: black;
+
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

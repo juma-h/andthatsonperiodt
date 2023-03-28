@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@300;400;500;700&display=swap");
+
+.under-intro {
+  border: solid #f0cf92;
+
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  background: url("../../assets/PNG/back3.png");
+  background-size: 100% 100%;
+  background-color: #f0cf92;
+}
+
+.container-wrapper {
+  position: relative;
+}
+
+.scrollmagic-pin-spacer {
+  padding: 0 !important;
+  height: auto !important;
+}
+
+/* .arrow-section {
+  border: solid brown;
+  height: 10vh;
+} */
+
+/* #section1 {
+  margin-top: -10vh;
+  padding-top: 10vh;
+} */
+
+.under-one {
+  /* border: solid #f0cf92;
+  background-color: #f0cf92; */
+  height: auto;
+  margin: 0;
+  display: flex;
+}
+
+.under-two {
+  border: solid #f0cf92;
+  height: auto;
+  background-color: #f0cf92;
+  padding: 10px;
+  margin: 0;
+}
+.under-three {
+  border: solid #f0cf92;
+  height: 70vh;
+  margin: 0;
+  background-color: #f0cf92;
+}
+.under-four {
+  border: solid #FD8A7D;
+  background-color: #FD8A7D;
+  height: 50vh;
+  margin: 0;
+}
+.under-five {
+  border: solid var(--bs-red);
+  height: 70vh;
+  background-color:var(--bs-red);
+  margin: 0;
+}
+.under-six {
+  border: solid #f0cf92;
+  height: 100vh;
+  background-color: #f0cf92;
+  /* position: relative; */
+  z-index: 1;
+}
+.footer-under {
+  border: solid #1c1819;
+  /* position: relative;
+  bottom: 0; */
+  width: 100%;
+  min-height: 10vh;
+  background-color: #1c1819;
+  color: whitesmoke;
+  text-align: center;
+  padding: 5px;
+}
+
+.periodgy {
+  background-color: var(--bs-red);
+  height: 65vh;
+}
