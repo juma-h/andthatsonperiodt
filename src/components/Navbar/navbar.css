@@ -24,13 +24,19 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   color: maroon;
-  text-align: center;margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .nav-links h5:hover {
-  color: #F0CF92;
+  color: black;
+
 }
 
+.nav-links h5:active{
+  list-style: none;
+  color: white
+}
 
 /* .nav-link-container-left {
   display: flex;

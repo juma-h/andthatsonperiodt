@@ -21,7 +21,7 @@ function Under18() {
       <div className="container-wrapper">
         <Controller>
           <Scene>
-            <div className="under-intro row mt-1">
+            <div className="under-intro row">
               <WebIntro />
             </div>
           </Scene>
