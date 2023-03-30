@@ -3,7 +3,7 @@ import familyPlan from "../../../assets/PNG/family1.png";
 import birthControl from "../../../assets/PNG/BirthControl.jpg";
 import "./birthcontrol.css";
 
-function BirthControlMethods() {
+function  BirthControlMethods() {
   return (
     <div className="birth-wrapper">
       <h3>Birth Control Methods</h3>
@@ -11,7 +11,7 @@ function BirthControlMethods() {
         id="carouselExampleIndicators"
         class="carousel slide"
         data-bs-ride="true"
-        style={{ height: "90%" }}
+        style={{ height: "80%" }}
       >
         <div class="carousel-indicators" style={{}}>
           <button
