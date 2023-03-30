@@ -8,7 +8,7 @@ function Footer() {
 
   return (
     <div>
-      <footer class="footer">
+      <footer class="footer" style={{ textAlign: 'center' }}>
         © {yearTxt} andthatsonperiodt.
         <br></br>
          Michelle Juma | All Rights Reserved.
